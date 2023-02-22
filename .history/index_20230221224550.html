@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netbook - Social Networking</title>
+    <link rel="icon" type="image/x-icon" href="./assets/imgs/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css"
+      integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/styles/base.css" />
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <link rel="stylesheet" href="./assets/styles/grid.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="./assets/font/fontawesome-free-6.3.0-web/svgs/solid/"
+    /> -->
+  </head>
+  <body>
+    <div class="app">
+      <!-- header -->
+      <div>
+        <div class="bg__app"></div>
+        <header class="header">
+          <div class="container">
+            <div class="header__left">
+              <div class="header__logo">
+                <img
+                  src="./assets/imgs/logo.png"
+                  alt="logo"
+                  width="34px"
+                  height="34px"
+                  style="object-fit: cover"
+                />
+                <span>Netbook</span>
+              </div>
+              <nav class="header__nav">
+                <ul class="header__menu">
+                  <li class="header__menu-item">
+                    <a class="header__menu-link active" href="/">Home</a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a class="header__menu-link" href="/">Community</a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a class="header__menu-link" href="/">Blog</a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a class="header__menu-link" href="/">Events</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header__right">
+              <div class="header__search">
+                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                <input
+                  type="text"
+                  placeholder="Search here..."
+                  class="header__search-input"
+                />
+              </div>
+              <button class="btn btn--primary">
+                <span>Login</span>
+              </button>
+            </div>
+          </div>
+        </header>
+        <!-- header__main -->
+        <!-- l: pc -->
+        <div class="header__main">
+          <div class="container">
+            <div class="grid">
+              <div class="row">
+                <div class="col l-5">
+                  <div class="header__main-left">
+                    <button class="btn btn-community">
+                      <span>Netbook Community</span>
+                    </button>
+                    <h1 class="header__main-title">
+                      Your Solutions For Community!
+                    </h1>
+                    <p class="header__main-description">
+                      More than 2 billion people in over countries use socibook
+                      to stay in touch with friends & family.
+                    </p>
+                    <div class="header__main-btns">
+                      <button class="btn btn--primary btn-customize">
+                        <span>About more</span>
+                      </button>
+                      <button class="btn btn--primary btn-customize invite">
+                        <span>Invite Friend</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col l-6">
+                  <div class="header__main-right">
+                    <img
+                      src="./assets/imgs/Iamge.png"
+                      alt="Image HomePage"
+                      style="object-fit: cover"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content -->
+      <main>
+        <section class="about">
+          <div class="container">
+            <div class="grid">
+              <div class="row">
+                <div class="col l-4 no-padding">
+                  <div class="about__left">
+                    <p class="sub__title">Whats Netboks?</p>
+                    <h3 class="main__title">
+                      Why Join to Netbook Social Network?
+                    </h3>
+                    <p class="description__title">
+                      Recent surveys have indicated that small businesses
+                      recognise the need they have to connect with consumer.
+                    </p>
+                    <div class="about__list">
+                      <div class="about__list-item">
+                        <div class="about__list-item--circle">
+                          <span></span>
+                        </div>
+                        <span class="about__list-item--text">Groups</span>
+                      </div>
+                      <div class="about__list-item">
+                        <div class="about__list-item--circle">
+                          <span></span>
+                        </div>
+                        <span class="about__list-item--text">Groups</span>
+                      </div>
+                      <div class="about__list-item">
+                        <div class="about__list-item--circle">
+                          <span></span>
+                        </div>
+                        <span class="about__list-item--text">Groups</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col l-8 no-padding">
+                  <div class="about__right"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- footer -->
+      <footer></footer>
+    </div>
+  </body>
+</html>

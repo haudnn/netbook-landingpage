@@ -1,0 +1,10 @@
+.app {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+.header {
+  height: var(--header-height);
+  padding: 12px 0;
+}
+.header__logo > span {
+}

@@ -1,0 +1,4 @@
+.app {
+  max-width: var(--max-width);
+  height: 200px;
+}

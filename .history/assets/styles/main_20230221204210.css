@@ -1,0 +1,33 @@
+.app {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+.header {
+  height: var(--header-height);
+  padding: 12px 0;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 0 30px;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+}
+.header__logo span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.header__menu {
+  display: flex;
+  gap: 0 15px;
+}
+.header__menu-link {
+  color: var(--gray-color);
+  font-size: 1.4rem;
+}
+.header__menu-link .active {
+  color: var(--black-color);
+}

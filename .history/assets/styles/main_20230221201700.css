@@ -1,0 +1,6 @@
+.app {
+  max-width: var(--max-width);
+  height: 200px;
+  margin: 0 auto;
+  background: #000;
+}
